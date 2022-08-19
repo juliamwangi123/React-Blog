@@ -1,0 +1,455 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+.navbar nav{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 180px ;
+}
+.navbar{
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+}
+.logo{
+  height: 100%;
+}
+.logo a img{
+  height: 50%;
+  margin-top: 10px;
+  margin-right: 260px;
+}
+.top{
+  height: 85vh;
+  margin: 0 180px ;
+  display: flex;
+  background-color: color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://demos.codetipi.com/zeen-volar/wp-content/uploads/sites/32/2019/11/zeen-fashion-00021-1400x934.jpg.webp")
+
+}
+
+.one ,.two ,.three{
+  height: 100%;
+  width: 33.3%;
+
+}
+.two{
+  border-left: 1px  solid gray;
+  border-right: 1px solid gray;
+}
+.innerdiv{
+  color:white;
+  position: relative;
+  bottom: -75%;
+  left: 4%;
+  padding: 10px;
+}
+.overlay p{
+  font-size: 22px;
+  font-family: 'Unna',serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+
+}
+.bottomdiv{
+  height: 70vh;
+  margin: 45px 180px;
+  display: flex;
+}
+.leftblogs{
+  width: 50%;
+  height: 100%;
+  margin-right: 40px;
+  
+}
+
+.first, .second{
+  height: 35%;
+  /* margin-bottom: 90px; */
+  display: flex;
+}
+.first{
+  margin-top: 30px;
+}
+
+.first img, .second img{
+  height: 80%;
+  margin-right: 20px;
+}
+.Midblock{
+  height: 13%;
+  background-color: rgba(255, 206, 236, .5);
+  margin: 30px 0 30px 0;
+}
+.rightblogs{
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  padding: 5px;
+  background-image: url('https://demos.codetipi.com/zeen-volar/wp-content/uploads/sites/32/2019/11/zeen-fashion-00019-894x1024.jpg.webp');
+}
+.rleft, .rright{
+  border-right: 1px solid gray;
+  width: 50%
+}
+.rright{
+  border: none;
+}
+.home-newsletter {
+  padding: 80px 0;
+  background-color: rgba(255, 206, 236, .7);
+  display: flex;
+  height: 60vh;
+  }
+  
+  .home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+ }
+  .home-newsletter .single p:nth-child(1){
+  font-size: 26px;
+  color: black;
+  font-family: 'Unna',serif;
+  margin-bottom: 20px;
+  font-weight: 400;
+
+ }
+ .home-newsletter .single p:nth-child(2){
+  color: #999999;
+  font-size: 12px;
+  margin-bottom: 20px;
+
+ }
+  .home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  width: 50%;
+ }
+  .home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f; 
+}
+  .home-newsletter .single .btn {
+  min-height: 50px; 
+  background: black;
+  color: #fff;
+  width: 20%;
+  }
+
+.container{
+  margin-left: 170px;
+  width: 50%;
+}
+
+.subImage img{
+  height: 120%;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 15%;
+}
+.subImage{
+  text-align: center;
+}
+.rightblog{
+  width: 50%;
+  margin-right: 50px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5px;
+  background-image: url('https://demos.codetipi.com/zeen-volar/wp-content/uploads/sites/32/2019/05/zeen-fashion-00029-1024x682.jpg.webp');
+}
+.fashion{
+  text-align: center;
+}
+.fashion p{
+  font-size: 26px;
+  color: black;
+  font-family: 'Unna',serif;
+  margin-bottom: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+footer{
+  height: 30vh;
+  background-color: rgba(255, 206, 236, .6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+footer p{
+  font-size: 52px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15%;
+}
+footer small{
+  position: relative;
+  bottom: 15%;
+}
+.overlay a{
+  text-decoration: none;
+}
+.overlay a p:hover{
+  color: pink;
+}
+
+.overlay a small{
+  color: white;
+}
+.overlay a small:hover,
+.bl a small:hover{
+  font-size: 16px;
+}
+
+.overlay a small span{
+  color: pink;
+}
+.bl a{
+  text-decoration: none;
+  color: #4a4a4a;
+  
+}
+.blogdetails{
+  margin: 0 80px;
+}
+
+.blogdetails h4{
+  text-align: center;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.blogdetails p{
+  margin-bottom: 30px;
+}
+
+.lifestyle{
+  height: 90vh;
+
+
+}
+.card-wrapper {
+  list-style: none;
+  display: flex;
+  margin: 0 90px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+ .card{
+  width: 30%;
+  height: 70%;
+  margin-right: 30px;
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+.card img{
+  height:80%;
+  width:100%
+}
+.genere{
+  height: 100%;
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;  position: absolute;
+
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+.login-box a span:nth-child(5) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box input {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+textarea{
+  width: 100%;
+  height: 50px
+}
