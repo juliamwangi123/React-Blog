@@ -1,0 +1,32 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Fashion",
+      "sub": "The OOTDS Trend",
+      "starter": "The rise of fashionable Instagram influencers and stylists paved the way",
+      "body": "Instagram is great when it comes to OOTDs—outfit of the day—and quick style inspirations, but blogs are where the serious fashionistas go to write about trends, advice, and the latest fashion innovations. Not feeling particularly stylish today? Fashion blogs can give you inspiration for dressing well even on those lazy mornings. Got your eye on this season’s hottest trends? These blogs are great for helping you figure out which clothing pieces and colors suit your frame. They can also provide you with ideas about mixing and matching pieces to create a dozen perfect looks without breaking the bank."
+    },
+    {
+      "id": 2,
+      "title": "Lifestyle",
+      "sub": "Summer Wear ",
+      "starter": "Have you ever wandered around clothing stores in the middle of summer  ",
+      "body": "So what is the garment that everyone appreciates from October to March of each year? The jackets of course. They keep us warm and stylish: practically, you can wear pajamas underneath, as long as the jacket is cool."
+    },
+    {
+      "id": 3,
+      "title": "Fashion",
+      "sub": "Summer Dresses ",
+      "starter": "With the summer, our wardrobe is filled with colorful and fluttering clothes ",
+      "body": "Rib Knitted Cut Out Long Dress I am not surprised that this is one of the most wanted dresses: the color, the cut, the sleeves, make it perfect for an elegant summer evening. The dress itself catches the eye, but you can play with the combinations of accessories."
+    },
+    {
+      "title": "eeo",
+      "sub": "ow",
+      "starter": "oowq",
+      "body": "kke",
+      "id": 4
+    }
+  ]
+}
