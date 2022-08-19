@@ -36,5 +36,6 @@
   },
   "devDependencies": {
     "web-vitals": "^2.1.4"
-  }
+  },
+  "build": "cd client && react-scripts build"
 }
